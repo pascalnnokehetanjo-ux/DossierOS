@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --color-accent-primary: #059669; /* Emerald 600 */
+    --color-accent-secondary: #D97706; /* Amber 600 */
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.accent-bg-primary {
+  background-color: var(--color-accent-primary);
+}
+
+.accent-text-primary {
+  color: var(--color-accent-primary);
+}
+
+.accent-border-primary {
+  border-color: var(--color-accent-primary);
+}
+
+.accent-bg-secondary {
+  background-color: var(--color-accent-secondary);
+}
+
+.accent-text-secondary {
+  color: var(--color-accent-secondary);
+}

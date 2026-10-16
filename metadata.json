@@ -1,0 +1,6 @@
+{
+  "name": "DossierOS",
+  "description": "AI-powered customer onboarding and transaction-operations layer for African banks, microfinance institutions, and mobile-money agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
